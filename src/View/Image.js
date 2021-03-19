@@ -2,12 +2,12 @@ import React from "react";
 import "./ViewContainer.scss";
 const Image = (props) => {
   return (
-    <div>
+    <div className="imgContainer">
       <img
         className="dog"
-        height="200px"
+        
         src={props.imageUrl}
-        width="250px"
+        
       />
     </div>
   );

@@ -1,0 +1,23 @@
+.aside {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    -ms-overflow-style: none;  
+
+    button{
+        display: flex;
+        // flex:none;
+        min-height: 50px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        // padding: 0;
+        overflow-x: hidden;
+        
+        
+    }
+}
+.aside::-webkit-scrollbar {
+    display: none;
+}

@@ -1,5 +1,34 @@
+*{
+    background-color:rgb(240, 210, 163);
+}
+
 .imageDetail{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-around;
+    width: 85%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    
+    .imgContainer{
+        width: 300px;
+    }
+
+        .dog{
+            margin-top: 5px;
+            width: 300px;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            object-fit: cover;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+        }
 }
+.imageDetail::-webkit-scrollbar {
+    display: none;
+}
+
